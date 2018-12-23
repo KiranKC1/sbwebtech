@@ -5,13 +5,13 @@ This project is a simple demonstration of how permission and roles can be genera
 ## Setting Up the project
 
 After downloading the project and setting up the environment variables just run :
-
+```
 php artisan migrate
-
+```
 that should setup the migration files and then run
-
+```
 php artisan db:seed
-
+```
 This will fill up the database with dummy data. After that use any of the following usernames and password to login to system as User, Editor or an Admin.
 
 To login as Admin enter these credentials
